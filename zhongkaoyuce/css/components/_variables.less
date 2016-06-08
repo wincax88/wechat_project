@@ -1,0 +1,93 @@
+@black: #000;
+@dark-grey: #333;
+@footer-grey: #666;
+@grey: #ccc;
+@light-grey: #ebebeb;
+@middle-grey: #666;
+@off-white: #f6f6f6;
+@white: #ffffff;
+@leo-blue: #0bceff;
+@blue1: #3498db;
+@blue2: #2980b9;
+@red1: #e74c3c;
+@red2: #c0392b;
+@yellow1: #f1c40f;
+@yellow2: #f39c12;
+@green1: #2ecc71;
+@green2: #27ae60;
+@orange1: #e67e22;
+@orange2: #d35400;
+@aqua1: #1abc9c;
+@aqua2: #16a085;
+@purple1: #9b59b6;
+@purple2: #8e44ad;
+@navy1: #34495e;
+@navy2: #2c3e50;
+
+// background colors
+@primary-background: @off-white;
+@secondary-background: @white;
+
+@third-background: @light-grey;
+@fourth-background: @grey;
+@inverse-background: @dark-grey;
+
+@primary-text: @dark-grey;
+@light-text: @light-grey;
+@loud-text: @black;
+@inverse-text: @white;
+@heading-text: @dark-grey;
+
+// link colors
+@primary-link-color: @red1;
+@primary-link-color-hover: @red2;
+
+@border-color: @light-grey;
+@border-size: 1px;
+@border-type: solid;
+@border-focus: @grey;
+@secondary-border-color: @blue1;
+
+// header
+@header-height: 44px;
+
+// footer
+@line-space:20px;
+
+// free course
+@input-height:44px;
+@free-course-color:#f9f9f9;
+
+.good-class {
+  border-size: (@border-size + 1);
+}
+.bad-class {
+  border-size: 2px;
+}
+
+@body-copy: "Microsoft YaHei", helvetica, arial, verdana, sans-serif;
+@heading-copy: "Microsoft YaHei" , helvetica, arial, verdana, sans-serif;
+@base-font-size: 16px;
+@font-size: 1em;
+@base-line-height: 1.5;
+
+@margin: 1em;
+@padding: 1em;
+
+.round-corners (@radius: 2px) {
+  -moz-border-radius: @radius;
+  -ms-border-radius: @radius;
+  border-radius: @radius;
+}
+
+.btn {
+  /* fill in the rest of the styles here */
+  .round-corners;
+  .transition;
+}
+
+.transition (@transition: background .1s linear) {
+  -moz-transition: @transition;
+  -webkit-transition: @transition;
+  transition: background @transition;
+}
