@@ -1,13 +1,13 @@
 <div class="container-fluid score-page">
     <div class="row">
-        <form class="form-horizontal" role="form" id="score-form">
+        <img src= <%- locals.host %><%- locals.score_back_png %> class="img-responsive">
+        <form class="form-horizontal overlay" role="form" id="score-form">
             <div class="form-group distinct">
                 <label for="distinct" class="col-xs-4 control-label">所在区域:</label>
                 <div class="col-xs-8">
                     <select class="form-control" name="distinct" id="distinct">
                         <option value="-1">请选择所在区域</option>
                         <option value="310101">黄浦区</option>
-                        <option value="310103">卢湾区</option>
                         <option value="310104">徐汇区</option>
                         <option value="310105">长宁区</option>
                         <option value="310106">静安区</option>
@@ -23,18 +23,19 @@
                         <option value="310117">松江区</option>
                         <option value="310118">青浦区</option>
                         <option value="310120">奉贤区</option>
+                        <option value="310121">崇明县</option>
                     </select>
                 </div>
             </div>
             <div class="form-group score-1">
-                <label for="score-1" class="col-xs-4 control-label">一模成绩:</label>
+                <label for="score1" class="col-xs-4 control-label">一模成绩:</label>
                 <div class="col-xs-8">
                     <input type="number" class="form-control" id="score-1"
                            placeholder="请输入一模考试成绩" name="score-1">
                 </div>
             </div>
             <div class="form-group score-2">
-                <label for="score-2" class="col-xs-4 control-label">二模成绩:</label>
+                <label for="score2" class="col-xs-4 control-label">二模成绩:</label>
                 <div class="col-xs-8">
                     <input type="number" class="form-control" id="score-2"
                            placeholder="请输入二模考试成绩" name="score-2">
@@ -42,11 +43,13 @@
             </div>
             <div class="form-group">
                 <div class="text-center">
-                    <button type="submit" class="btn submit-button" id="submit-button">立即预测</button>
+                    <button type="submit" class="btn submit-button" id="submit-button">
+                        <a href="result">立即预测 </a>
+                    </button>
                 </div>
             </div>
 
         </form>
+        <%- partial("./_footer") %>
     </div>
-    <%- partial("./_footer") %>
 </div>

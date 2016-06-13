@@ -9,7 +9,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
 
     <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
-    <title>2016上海中考预测 | 理优1对1－理科提分王－初高中在线1对1学习品牌</title>
+    <title> | 理优1对1－理科提分王－初高中在线1对1学习品牌</title>
     <meta name="keywords" content="1对1，一对一，理科提分王，上海中考，小升初，高考，上海重点中学，上海中考分数线, 上海家教，一对一补习，一对一辅导，中考补习，在线教育，电子白板" />
     <meta name="description" content="理优教育是国内领先在线1对1学习平台，汇聚金字塔顶尖的理科老师，专注理科提分，独特的个性化课程定制系统，为初高中学生提供针对性的学习辅导，免费课程预约请咨询：400-169-3070" />
     <meta http-equiv="content-language" content="zh-cn" />
@@ -44,17 +44,58 @@
 </head>
 <body>
 <div>
-    <div class="container-fluid first-page">
+    <div class="container-fluid score-page">
     <div class="row">
-        <div>
-            <img src="img/first_page.jpg" class="img-responsive">
-            <div class="overlay">
-                <h1 class="animated infinite rubberBand" id="start-button">
-                    <a href="score">点击解封</a>
-                </h1>
+        <form class="form-horizontal" role="form" id="score-form">
+            <div class="form-group distinct">
+                <label for="distinct" class="col-xs-4 control-label">所在区域:</label>
+                <div class="col-xs-8">
+                    <select class="form-control" name="distinct" id="distinct">
+                        <option value="-1">请选择所在区域</option>
+                        <option value="310101">黄浦区</option>
+                        <option value="310103">卢湾区</option>
+                        <option value="310104">徐汇区</option>
+                        <option value="310105">长宁区</option>
+                        <option value="310106">静安区</option>
+                        <option value="310107">普陀区</option>
+                        <option value="310108">闸北区</option>
+                        <option value="310109">虹口区</option>
+                        <option value="310110">杨浦区</option>
+                        <option value="310112">闵行区</option>
+                        <option value="310113">宝山区</option>
+                        <option value="310114">嘉定区</option>
+                        <option value="310115">浦东新区</option>
+                        <option value="310116">金山区</option>
+                        <option value="310117">松江区</option>
+                        <option value="310118">青浦区</option>
+                        <option value="310120">奉贤区</option>
+                    </select>
+                </div>
             </div>
-        </div>
+            <div class="form-group score-1">
+                <label for="score-1" class="col-xs-4 control-label">一模成绩:</label>
+                <div class="col-xs-8">
+                    <input type="number" class="form-control" id="score-1" placeholder="请输入一模考试成绩" name="score-1">
+                </div>
+            </div>
+            <div class="form-group score-2">
+                <label for="score-2" class="col-xs-4 control-label">二模成绩:</label>
+                <div class="col-xs-8">
+                    <input type="number" class="form-control" id="score-2" placeholder="请输入二模考试成绩" name="score-2">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="text-center">
+                    <button type="submit" class="btn submit-button" id="submit-button">立即预测</button>
+                </div>
+            </div>
+
+        </form>
     </div>
+    <div class="row footer">
+    <h2><i>理优教育</i></h2>
+    <h6><i>www.leoedu.com</i></h6>
+</div>
 </div>
 
 </div>

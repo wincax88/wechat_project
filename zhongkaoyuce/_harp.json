@@ -1,5 +1,6 @@
 {
   "globals": {
-    "siteTitle": "理优1对1－理科提分王－初高中在线1对1学习品牌"
+    "host":"",
+    "logo_png":"img/logo.png"
   }
 }

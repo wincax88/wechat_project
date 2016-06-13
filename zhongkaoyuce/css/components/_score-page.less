@@ -1,12 +1,29 @@
 .score-page {
+  /*
   background-image: url("/img/score_back.png");
   background-position: bottom center;
   background-size: 100%;
   min-height: 603px;
-  /*min-height: 100%;*/
   height: auto !important;
   height: 100%;
+*/
+  .row {
+    img {
+      position: fixed;
+      top: 0;
+      left: 0;
 
+      /* Preserve aspet ratio */
+      min-width: 100%;
+      min-height: 100%;
+    }
+    .overlay {
+      position: absolute;
+      top:0;
+      width: 100%;
+    }
+
+  }
   form {
     margin-top: 88px;
     padding-left: 20px;
@@ -35,6 +52,10 @@
       font-size: 20px;
       margin-top: 20px;
       border-radius: 5px;
+
+      a {
+        color: white;
+      }
     }
   }
 }

@@ -1,0 +1,170 @@
+.result-page {
+  .row {
+    .avatar-block {
+      width: 100%;
+      .avatar {
+        top: 55px;
+        margin-top:55px;
+        width: 65px;
+        height: 65px;
+      }
+    }
+
+    .img-responsive {
+      position: fixed;
+      top: 0;
+      left: 0;
+
+      /* Preserve aspet ratio */
+      min-width: 100%;
+      min-height: 100%;
+    }
+
+    .overlay {
+      position: absolute;
+      top:0;
+      color:@black;
+      width: 100%;
+
+    }
+    .title {
+      position: relative;
+      margin:auto;
+      margin-top:28%;
+      width: 80%;
+      background-color: @green1;
+      opacity: 0.5;
+    }
+    .details {
+      position: relative;
+      margin:auto;
+      margin-top:25%;
+      width: 90%;
+      /*background-color: @green1;
+      opacity: 0.5;*/
+    }
+    .percent {
+      position: relative;
+      top: 0;
+      right: 0;
+      float: right;
+      font-size: 14px;
+      color: @middle-grey;
+    }
+    .my-progress {
+      margin-top:10px;
+      margin-bottom:10px;
+      background-color: #cccccc;
+      border-radius:1px;
+      height: 22px;
+      width: 80%;
+
+
+      .my-progress-bar {
+        display: inline-block;
+        height: 100%;
+      }
+      .progress-bar-1 {
+        background-color: #f9343d;
+        width: 100%;
+
+      }
+      .progress-bar-2 {
+        background-color: #ff6100;
+        width: 60%;
+
+      }
+      .progress-bar-3 {
+        background-color: #ffa432;
+        width: 20%;
+
+      }
+      .progress-bar-4 {
+        background-color: #77b814;
+        width: 10%;
+
+      }
+      .bar-name {
+        display: inline-block;
+        margin-top: 0;
+        margin-left: 8px;
+        color: @white;
+        font-size: 14px;
+        width: 200px;
+      }
+
+    }
+    .result-button {
+      margin-top: 10px;
+
+      height: 58px;
+      width : 45%;
+      border-style: solid;
+      border-radius: 5px;
+
+      text-align: center;
+
+      h3 {
+        margin-top: 5px;
+        margin-bottom:5px;
+      }
+      h6 {
+        margin-top: 0px;
+      }
+    }
+    .white-button {
+      float: left;
+      background-color: @white;
+      color: @red1;
+      border-color: @red1;
+    }
+
+    .red-button {
+      float: right;
+      background-color: @red1;
+      color: @white;
+      border-color: @red1;
+    }
+  }
+  #start-button {
+    animation-duration: 2s;
+    animation-delay: 2s;
+    text-align: center;
+    color: #333333;
+    font-size: @font-size*3;
+  }
+
+  #nickname {
+    color:#89613d;
+    font-size: 20px;
+  }
+
+  #title {
+    margin-top:8px;
+    color:@black;
+    font-size: 16px;
+  }
+
+  #comment {
+    color:#9b9b9b;
+    font-size: 14px;
+  }
+
+  #share {
+    position: absolute;
+    top:0;
+    color:@black;
+    width: 100%;
+
+    .img-responsive {
+      position: fixed;
+      top: 0;
+      left: 0;
+
+      /* Preserve aspet ratio */
+      min-width: 100%;
+      min-height: 100%;
+    }
+  }
+
+}

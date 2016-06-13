@@ -1,9 +1,28 @@
 {
   "index": {
     "pageTitle": "2016上海中考预测",
-    "host":"",
-    "first_page_png":"img/first_page.jpg",
+    "siteTitle": "你能被四大名校录取吗？ 赶紧来测一测",
+    "first_page_png":"img/first_page.jpg"
+  },
+  "score": {
+    "pageTitle": "2016上海中考预测",
+    "siteTitle": "你能被四大名校录取吗？ 赶紧来测一测",
     "score_back_png":"img/score_back.png"
+  },
+  "result": {
+    "pageTitle": "2016上海中考预测",
+    "siteTitle": "你的同学 Erick 中考成绩击败了90%的学生，敢不敢比一比？",
+    "result_back_prefix":"result_back_png_",
+    "result_back_png_1":"img/result_1.png",
+    "result_back_png_2":"img/result_2.png",
+    "result_back_png_3":"img/result_3.png",
+    "share_jpg":"img/share.jpg",
+    "avatar":"",
+    "nick":"",
+    "percent":"90",
+    "title":"四校学霸"
+
+
   },
   "share" : {
     "title1" :"你能被四大名校录取吗？ 赶紧来测一测",

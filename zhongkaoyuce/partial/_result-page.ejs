@@ -1,0 +1,72 @@
+<div class="container result-page">
+    <div>
+        <div class="row">
+            <div class="avatar-block">
+                <img src= "http://img5.imgtn.bdimg.com/it/u=3275945732,2480386705&fm=21&gp=0.jpg" class="avatar center-block" id="avatar-image">
+            </div>
+            <img src= <%- locals.host %><%- locals.result_back_png_1 %> class="img-responsive" id="result-back-image">
+            <div class="overlay">
+                <div class="title">
+                    <div id="nickname">michael</div>
+                    <div id="title">你的中考成绩已经击败90%的学生，获得“四校学霸”的称号！</div>
+                </div>
+                <div class="details">
+                    <div id="comment">中考成绩由理优教育提供独家算法，你可能进入的学校如下（数据仅供参考，开心就好）</div>
+                    <div>
+                        <div class="percent">100%</div>
+                        <div class="my-progress">
+                            <div class="my-progress-bar progress-bar-1">
+                                <span class="bar-name">建平中学</span>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="percent">60%</div>
+
+                    <div class="my-progress">
+
+                        <div class="my-progress-bar progress-bar-2">
+
+                            <span class="bar-name">上海实验学校</span>
+                        </div>
+                    </div>
+                    <div class="percent">20%</div>
+                    <div class="my-progress">
+                        <div class="my-progress-bar progress-bar-3">
+                            <span class="bar-name">进才中学</span>
+                        </div>
+
+                    </div>
+                    <div class="percent">10%</div>
+                    <div class="my-progress">
+                        <div class="my-progress-bar progress-bar-4">
+                            <span class="bar-name">上海中学</span>
+                        </div>
+
+                    </div>
+                    <div>
+                        <div class="white-button center-block result-button" id="prize-button">
+                            <a href="http://m.leo1v1.com/">
+                                <h3>领取奖学金</h3>
+                                <h6>.200元奖学金大放送.</h6>
+                            </a>
+                        </div>
+                        <div class="red-button center-block result-button" id="share-button">
+                            <h3>转告好友</h3>
+                            <h6>.喊小伙伴一起测.</h6>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+            <%- partial("./_footer") %>
+        </div>
+
+        <div id="share" class="hidden">
+            <img src= <%- locals.host %><%- locals.share_jpg %> class="img-responsive" id="result-back-image">
+        </div>
+
+    </div>
+</div>
